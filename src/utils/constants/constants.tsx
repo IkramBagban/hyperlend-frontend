@@ -1,5 +1,6 @@
 import dashboardIcon from '../../assets/icons/dashboard-icon.svg';
 import lendborrowIcon from '../../assets/icons/lend-borrow-icon.svg';
+import pointsIcon from '../../assets/icons/bronze-badge.svg';
 import {
   // hyperVaultIcon,
   // hyperLoopIcon,
@@ -109,6 +110,13 @@ const navLinksTop: NavLinkProps[] = [
     title: 'Analytics',
     url: '/analytics',
     icon: analyticsIcon,
+    disabled: false,
+  },
+  {
+    id: 'Points',
+    title: 'Points',
+    url: '/points',
+    icon: pointsIcon,
     disabled: false,
   },
   // {
